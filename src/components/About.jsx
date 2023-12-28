@@ -5,6 +5,9 @@ import React from "react";
 export default function About(props) {
   return (
     <div className="container my-3 rounded-3" style={props.myStyle}>
+      {/* <hr class="border border-primary border-3 opacity-75" /> */}
+      
+
       <h2>About</h2>
       <div
         className="accordion accordion-flush my-3"

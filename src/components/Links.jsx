@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { motion } from "framer-motion";
 
+
 export default function () {
-  const [variants, setVariants] = useState("white");
+  // const [variants, setVariants] = useState("white");
 
   return (
     <motion.span className="d-flex gap-3">

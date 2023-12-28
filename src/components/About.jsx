@@ -1,10 +1,8 @@
 import React from "react";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 
-export default function Connect(props) {
+
+export default function About(props) {
   return (
     <div className="container my-3 rounded-3" style={props.myStyle}>
       <h2>About</h2>

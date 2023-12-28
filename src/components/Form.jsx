@@ -39,7 +39,8 @@ export default function Form(props) {
       <div className="mb-3">
         <label
           for="exampleFormControlTextarea1"
-          className="form-label my-5 d-flex justify-content-center align-items-center"
+          className="form-label my-2
+           d-flex justify-content-center align-items-center"
         >
           <h3>Enter Text here </h3>
         </label>

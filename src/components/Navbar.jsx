@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Links from './Links.jsx';
+import Links from "./Links.jsx";
 import React from "react";
 Navbar.propTypes = {
   home: PropTypes.string,
@@ -62,11 +62,11 @@ export default function Navbar(props) {
 
         <Links />
         <div
-          class={`d-flex form-check form-switch`}
+          className={`d-flex form-check form-switch justify-content-center align-items-center gap-2`}
           style={{ color: "#AEB2B6" }}
         >
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             role="switch"
             id="flexSwitchCheckDefault"

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import React from "react";
 Navbar.propTypes = {
   home: PropTypes.string,
   about: PropTypes.string,
@@ -33,7 +33,7 @@ export default function Navbar(props) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/">
@@ -46,7 +46,7 @@ export default function Navbar(props) {
               </a>
             </li>
           </ul>
-          <form className="d-flex" role="search">
+          <form className="d-flex me-2" role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -57,16 +57,17 @@ export default function Navbar(props) {
               Search
             </button>
           </form>
+        </div> */}
+        <div class={`form-check form-switch`} style={{ color: "#AEB2B6" }}>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+            onClick={props.changeMode}
+          />
+          <label htmlFor="flexSwitchCheckDefault">Dark Mode</label>
         </div>
-      </div>
-      <div class="form-check form-switch">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckDefault"
-          onClick={props.changeMode}
-        />
       </div>
     </nav>
   );

@@ -12,6 +12,10 @@ This is a simple text manipulation tool built using React. It provides various t
 - **Copy Text**: Copy the input text to the clipboard.
 - **Text Statistics**: Displays the number of words, characters, and estimated reading time.
 
+### Webpage Screenshot
+
+![Webpage Screenshot](./ui-image.png)
+
 ## Functionalities
 
 - **To Uppercase**: Converts all the letters in the input text to uppercase.
@@ -48,3 +52,16 @@ This is a simple text manipulation tool built using React. It provides various t
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/text-utils.git
+   ```
+2. Navigate into the project directory.
+   ```bash
+   cd text-utils
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```

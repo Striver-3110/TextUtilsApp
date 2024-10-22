@@ -1,41 +1,50 @@
-# Text Utils App
+# Text Utils Application
 
-This is a simple **Text Utilities** web application built using **React**. The app allows users to perform various text transformations and operations, such as converting to uppercase, lowercase, clearing text, removing extra spaces, and more. 
+This is a simple text manipulation tool built using React. It provides various text utilities such as converting text to uppercase, lowercase, hashing, clearing the text, removing extra spaces, copying text to the clipboard, and counting the number of words and characters.
 
 ## Features
 
-1. **Convert to Uppercase:**  
-   Converts the input text to all uppercase letters.
+- **Convert to Uppercase**: Convert the input text to uppercase letters.
+- **Convert to Lowercase**: Convert the input text to lowercase letters.
+- **Hash Text**: Apply a hash function to the input text for encoding.
+- **Clear Text**: Clear all the text from the input field.
+- **Remove Extra Spaces**: Remove unnecessary spaces between words and sentences.
+- **Copy Text**: Copy the input text to the clipboard.
+- **Text Statistics**: Displays the number of words, characters, and estimated reading time.
 
-2. **Convert to Lowercase:**  
-   Converts the input text to all lowercase letters.
+## Functionalities
 
-3. **Hash Text:**  
-   Generates a hash value for the input text.
+- **To Uppercase**: Converts all the letters in the input text to uppercase.
+- **To Lowercase**: Converts all the letters in the input text to lowercase.
+- **To Hash**: Encodes the input text using a hash function (optional: you can specify which hash algorithm is used).
+- **Clear Text**: Clears the entire text from the input field.
+- **Remove Extra Spaces**: Removes extra spaces between words, ensuring only one space between each word.
+- **Copy Text**: Copies the current text in the input field to the clipboard for easy use elsewhere.
+  
+### Text Statistics:
+- **Words**: Displays the number of words in the input text.
+- **Characters**: Displays the number of characters in the input text.
+- **Time to Read**: Estimates the time to read the text based on the average reading speed of 125-150 words per minute.
 
-4. **Clear Text:**  
-   Clears the entire text area, removing all input.
+### Example of text statistics:
+- Words: `30`
+- Characters: `239`
+- Time to Read: `2.4 seconds`
 
-5. **Remove Extra Spaces:**  
-   Removes unnecessary or extra spaces from the text.
+## How to Use
 
-6. **Copy Text:**  
-   Copies the text from the input area to the clipboard.
+1. Enter your text in the provided input box.
+2. Use the buttons to perform actions on the text:
+   - Click **To Uppercase** to change all text to uppercase.
+   - Click **To Lowercase** to change all text to lowercase.
+   - Click **To Hash** to encode the text.
+   - Click **Clear Text** to remove the text.
+   - Click **Remove Extra Spaces** to clean up excess spaces between words.
+   - Click **Copy Text** to copy the text to your clipboard.
+3. View the live count of words, characters, and estimated reading time below the input box.
 
-7. **Word and Character Count:**  
-   Displays the number of words and characters in the input text.
+## Installation
 
-8. **Estimated Reading Time:**  
-   Calculates the estimated time to read the text based on the word count.
-
-## Usage
-
-1. **Enter your text** in the input field.
-2. Use the provided buttons to:
-   - Convert text to uppercase or lowercase.
-   - Hash the text.
-   - Remove extra spaces.
-   - Clear the entire text.
-   - Copy the text to the clipboard.
-
-3. The **word count**, **character
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/text-utils.git

@@ -10,11 +10,11 @@ import TocIcon from "@mui/icons-material/Toc";
 Navbar.propTypes = {
   home: PropTypes.string,
   about: PropTypes.string,
-};
+}; 
 
 Navbar.defaultProps = {
   // as name suggests
-  home: "Home",
+  home: "Home", 
   about: "About Us",
 };
 
